@@ -3,7 +3,7 @@
   padding: 0;
 }
 .bg{
-  background: radial-gradient(circle, rgba(14,70,31,1) 0%, rgba(1,18,5,1) 100%);
+  background: #0d3d36;
   height: 100vh;
 }
 .main{
@@ -20,32 +20,43 @@
   bottom: 72%;
 }
 .sec{
-  width: 500px;
+  width: 400px;
   position: absolute;
-  left: 37%;
-  bottom: 8%;
+  left: 39%;
+  bottom: 66%;
 }
 .button{
   width: 70px;
   height: 70px;
   margin: 6px;
-  background: rgba(13, 88, 35, 0.52);
+  background: #0e483d;
   border: none;
-  color: rgb(241, 245, 245);
+  color: #d3e8f5;
   font: inherit;
   transition: all 0.5s; 
+  outline: none;
+}
+.button:hover{
+  background: #259b87;
+  border: 3px solid #d3e8f5;
+  transition: 0.5s;
+  box-shadow: 0 0 10px #d3e8f5,
+              0 0 20px #d3e8f5,
+              0 0 30px #d3e8f5;             
 }
 .textview{
-  color: rgb(236, 243, 240);
+  color: #d3e8f5;
   text-align: right;
   background: transparent;
   border: none;
+  outline: none;
+  height: 40px;
   width: 315px;
   margin: 5px;
   padding: 5px;
   font-size: 30px;
   font: inherit;
-  cursor: pointer;
+  cursor: pointer;          
 }
 .btn-zero{
   width: 155px;
