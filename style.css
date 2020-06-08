@@ -13,18 +13,6 @@
   transform: translateX(-50%)translateY(-50%);
   font-size: 28px;
 }
-.first{
-  width: 600px;
-  position: absolute;
-  left: 34%;
-  bottom: 72%;
-}
-.sec{
-  width: 400px;
-  position: absolute;
-  left: 39%;
-  bottom: 66%;
-}
 .button{
   width: 70px;
   height: 70px;
@@ -39,10 +27,7 @@
 .button:hover{
   background: #259b87;
   border: 3px solid #d3e8f5;
-  transition: 0.5s;
-  box-shadow: 0 0 10px #d3e8f5,
-              0 0 20px #d3e8f5,
-              0 0 30px #d3e8f5;             
+  transition: 0.5s;           
 }
 .textview{
   color: #d3e8f5;
